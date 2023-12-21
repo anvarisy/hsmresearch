@@ -37,7 +37,7 @@
 			<artifactId>lunaProvider</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/LunaProvider.jar</systemPath>
+			<systemPath>${project.basedir}/src/main/resources/lib/LunaProvider.jar</systemPath>
 		</dependency>
 
 		<dependency>
@@ -68,7 +68,7 @@
 				<configuration>
 				<executable>java</executable>
 				<arguments>
-					<argument>-Djava.library.path=${project.basedir}/native</argument>
+					<argument>-Djava.library.path=${project.basedir}/src/main/resources/lib/native</argument>
 				</arguments>
 				</configuration>
 			</plugin>
